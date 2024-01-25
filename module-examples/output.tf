@@ -1,4 +1,4 @@
-*/
+/*
 output "vpc_cidr_block_output" {
   description = "The CIDR block of the VPC"
   value       = module.vpc.vpc_cidr
@@ -19,4 +19,4 @@ output "azs_output" {
   description = "A list of availability zones spefified as argument to this module"
   value       = module.vpc.azs
 }
-/*
+*/
