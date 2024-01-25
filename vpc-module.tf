@@ -33,8 +33,7 @@ module "vpc" {
   enable_dns_hostnames = true
   enable_dns_support   = true
  
-  tags = "localvpc"
-  vpc_tags = "localvpc"
+
  
   # Additional Tags to Subnets
 
