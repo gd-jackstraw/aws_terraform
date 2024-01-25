@@ -55,7 +55,7 @@ variable "vpc_enable_nat_gateway" {
 variable "vpc_single_nat_gateway" {
   description = "Enable only single NAT Gateway in one Availability Zone"
   type = bool
-  default = true
+  default = false
 }
 
 
