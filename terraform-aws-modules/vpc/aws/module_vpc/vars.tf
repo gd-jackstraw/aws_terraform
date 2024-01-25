@@ -1,5 +1,5 @@
 variable "vpc_name" {
-  description = "Name of VPC"
+  description = "name of VPC"
   type        = string
   default     = "assignment-vpc"
 }
@@ -11,19 +11,19 @@ variable "vpc_cidr" {
 }
 
 variable "vpc_availability_zones" {
-  description = "Availability zones for VPC"
+  description = "availability zones for VPC"
   type        = list(string)
   default     = ["us-west-2a", "us-west-2b", "us-west-2c"]
 }
 
 variable "vpc_public_subnets" {
-  description = "Public subnets for VPC"
+  description = "public subnets for VPC"
   type        = list(string)
   default     = ["10.0.20.0/24", "10.0.21.0/24"]
 }
 
 variable "vpc_private_subnets" {
-  description = "Private subnets for VPC"
+  description = "private subnets for VPC"
   type        = list(string)
   default     = ["10.0.1.0/24", "10.0.2.0/24"]
 }
