@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws/module_vpc"
+  source  = "./terraform-aws-modules/vpc/aws/module_vpc"
   #version = "2.78.0"
   version = "3.0.0"
 
