@@ -8,7 +8,7 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "user1"
   monitoring             = true
-  vpc_security_group_ids = ["sg-12345678"]
+  vpc_security_group_ids = aws_security_group.vpc-ssh.id
   subnet_id              = "subnet-eddcdzz4"
 
   tags = {
