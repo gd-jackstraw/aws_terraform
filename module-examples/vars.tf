@@ -1,4 +1,4 @@
-variable "vpc_name" {
+/* variable "vpc_name" {
   description = "name of VPC"
   type        = string
   default     = "assignment-vpc"
@@ -58,4 +58,4 @@ variable "vpc_single_nat_gateway" {
   default = false
 }
 
-
+*/
