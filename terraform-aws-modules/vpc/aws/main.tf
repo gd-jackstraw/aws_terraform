@@ -6,7 +6,6 @@ module "vpc" {
   locals {
   name = "xyz"
   common_tags = "dns-param"
-  data "aws_availability_zones" "available" {}
   }
 
   # VPC Basic Details
