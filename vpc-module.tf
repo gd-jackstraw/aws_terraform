@@ -6,7 +6,7 @@ module "vpc" {
   locals {
   name = "xyz"
   common_tags = "dns-param"
-  }
+  
 
   # VPC Basic Details
 
@@ -57,5 +57,5 @@ module "vpc" {
     Type = "Private Database Subnets"
 
   }
-
+ }
 }
